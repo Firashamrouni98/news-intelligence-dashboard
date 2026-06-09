@@ -1,0 +1,13 @@
+venv311/
+venv/
+__pycache__/
+*.pyc
+.streamlit/secrets.toml
+.env
+*.tar
+*.zip
+.idea/
+.vscode/
+*.egg-info/
+dist/
+build/
