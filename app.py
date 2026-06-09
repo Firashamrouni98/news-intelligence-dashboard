@@ -6,7 +6,7 @@ import plotly.graph_objects as go
 from transformers import pipeline
 from datetime import datetime
 
-st.set_page_config(page_title="News Sentiment Analyzer", page_icon="📰", layout="wide")
+st.set_page_config(page_title="AI-Powered News Dashboard", page_icon="📰", layout="wide")
 
 st.markdown("""
 <style>
@@ -36,8 +36,8 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-st.title("📰 AI News Sentiment Analyzer")
-st.caption("Real-time media sentiment analysis powered by HuggingFace Transformers + NewsAPI")
+st.title("📰 AI-Powered News Dashboard")
+st.caption("Real-time News analysis powered by HuggingFace Transformers + NewsAPI")
 
 # ── SIDEBAR ───────────────────────────────────────────────
 st.sidebar.title("⚙️ Settings")
